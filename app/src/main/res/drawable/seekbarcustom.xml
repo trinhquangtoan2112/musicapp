@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+      <item android:id="@+id/backgroundseekbar">
+              <shape android:shape="rectangle">
+                      <solid android:color="@color/white"></solid>
+                  <corners android:radius="1dp"></corners>
+                  <size android:height="15dp"></size>
+              </shape>
+      </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#2974C6" /> <!-- Màu của phần đã được kéo -->
+                <corners android:radius="5dp" /> <!-- Đường viền bo tròn -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>
